@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SITE TITLE -->
+    <title>Digital Ambassadors Program</title>
+
+    <!-- =========================
+       Meta Information
+    ============================== -->
+    <meta name="description" content="Digital Ambossadors Program ">
+    <meta name="keywords" content="Digital, ikoranabuhanga, ict, intore">
+    <meta name="author" content="Eric@starm">
+
+    <!-- =========================
+       favicon and app touch icon
+    ============================== -->
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <link rel="apple-touch-icon" href="img/logo.png">
+
+
+    <!-- =========================
+       Bootstrap and animation
+    ============================== -->
+    <link rel="stylesheet" href="landingpage/css/bootstrap.css">
+    <link rel="stylesheet" href="landingpage/css/animate.min.css">
+
+    <!-- =========================
+       Fonts, typography and icons
+    ============================== -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="landingpage/css/font-awesome.css">
+    <!-- <link rel="stylesheet" href="css/typography.css"> removed -->
+
+    <!-- =========================
+       Carousel, lightbox and circle generator
+    ============================== -->
+    <link rel="stylesheet" href="landingpage/css/owl.carousel.css">
+    <link rel="stylesheet" href="landingpage/css/owl.theme.css">
+    <link rel="stylesheet" href="landingpage/css/nivo-lightbox.css">
+    <link rel="stylesheet" href="landingpage/css/nivo-lightbox-default.css">
+    <link rel="stylesheet" href="landingpage/css/jquery.circliful.css">
+
+    <!-- ***** Custom Stylesheet ***** -->
+    <link rel="stylesheet" href="landingpage/css/main.css">
+
+    <!-- ***** Responsive fixes ***** -->
+    <link rel="stylesheet" href="landingpage/css/responsive.css">
+
+    <!-- Header scripts -->
+    <script src="landingpage/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="landingpage/js/queryloader2.min.js"></script>
+    <style>
+        .ournav{
+            background-color: red;
+    min-height: 100px !important;
+    margin-left: -5px !important;
+    margin-right: -5px;
+        }
+        .nav1 {
+    background-color: #fff;
+  }
+  .brandlogo{
+    font-size: 25px;
+  }
+        @media only screen and (max-width: 600px) {
+  .nav1 {
+    background-color: rgb(241, 248, 247);
+    box-shadow: 0px 5px 5px -6px rgba(0,0,0,.5);
+  }
+  .brandlogo{
+    font-size: 15px;
+  }
+  .ml-smll{
+      margin-left: 20px;
+      margin-right: 10px;
+  }
+  .pl-lang{
+    padding-left: 0px !important;
+  }
+
+    
+  
+}
+.modal-backdrop {
+   background-color: #fff;
+   opacity:1 !important;
+}
+.btn-custom{
+    border: none;
+    padding-right: 30px;
+    font-size: 17px;
+    background: transparent;
+    border-radius: 0px;
+    color: #337ab7;
+    
+}
+.edit-text-custom{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #337ab7;
+    display: none;
+    width: 100%;
+}
+    </style>
+
+</head>
+<script>
+    function show_input_search() {
+          if (document.getElementById('toggleinput').value=="hide") {
+            document.getElementById('search').style.display='inline';
+            document.getElementById('toggleinput').value='show';
+        
+       
+          } else {
+            
+           }
+    }
+ 
+</script>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  
+
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top nav1" style="height: 100px;border-bottom: none;background-color: #eef1f8;">
+            <div class="container-fluid" >
+              <div class="navbar-header" style="padding-top: 15px;">
+                    <a class="" href="#"><img alt="Brand" width="70" height="70" src="img/logo.png" style="z-index: -1;">
+                        <span class="brandlogo" style="text-transform: uppercase;font-weight: bold">Digital Ambassadors Program</span> 
+                    </a>
+                <button style="padding-top: 15px;" type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse " style="background-color: #eef1f8 ;
+              min-height: 100px !important;
+              box-shadow: 0px 5px 5px -6px rgba(0,0,0,.5);
+              padding-top: 17px;
+              " >
+                
+                <ul class="nav navbar-nav navbar-right ml-smll">
+                    <li>
+                    <form class="navbar-form " style="margin-top: 13px;" role="search">
+                        <div class="form-group">
+                            <input type="hidden" id="toggleinput" value="hide" >
+                          <input type="text" name="search" class=" edit-text-custom" id="search" required placeholder="Search" >
+                        </div>
+                        <button type="submit" onclick="show_input_search();" class="btn-custom"> <i class="fa fa-search"></i> </button>
+                      </form>
+                    </li>
+                      <li style="padding-top: 6px;">  <button type="button" class="btn btn-primary navbar-btn" style="    padding-top: 1px;
+                        padding-bottom: 1px;"  id="myBtn">Kwinjira</button></li>
+
+                  <li> <a href="#" class="dropdown-toggle pl-lang" style="margin-right: 10px;"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/country_flag/rw.svg" width="25" height="100%;" alt=""> Kinyarwanda <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                            <li><a href="#"><img src="img/country_flag/rw.svg" width="25" height="100%;" alt=""> Kinyarwanda</a></li>
+                            <li><a href="#"><img src="img/country_flag/us.svg" width="25" height="100%;" alt=""> English</a></li>
+                            <li><a href="#"><img src="img/country_flag/fr.svg" width="25" height="100%;" alt=""> French</a></li>
+                    </ul></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </nav>
+<div class="">
+    <!-- <div class="col-md-1"></div> -->
+    <div class="" style="background-color: #eef1f8 ;padding: 0;margin: 0;" >
+        
+
+    <section  id="about-us" class="about-us" style="
+    background-color: #eee;" >
+        <div class="overlay">
+            <div class="container-fluid padding-top-large" >
+              
+                <div class="row margin-bottom-medium">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="jumbo-text light-text margin-top-medium wow slideInLeft" data-wow-duration="2s">
+                                     <center><strong class="bold-text text-white">Gahunda y'Intore mu ikoranabuhanga</strong></center>
+                                 
+                        </div> 
+                         <p class="margin-bottom-medium wow slideInUp text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          </p>
+                          <div class=" light-text margin-bottom-small margin-top-medium wow slideInLeft" data-wow-duration="2s">
+                             <center><strong class="bold-text text-white">Andi makuru</strong></center>
+                            </div> 
+                         
+                        <div class="call-button">
+                                <div class="row text-center" >
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-3  col-sm-4  col-xs-12">
+                                        <a href="kwiyandikisha.html" class="button pull-right internal-link bold-text light hvr-grow" >Kwiyandikisha</a>
+                                    </div>
+                                    <div class="col-md-3  col-sm-4  col-xs-12">
+                                            <a href="amasomo.html" class="button pull-right internal-link bold-text light hvr-grow">Kureba amasomo</a>
+                                        </div>
+                                        <div class="col-md-3  col-sm-4  col-xs-12">
+                                                <a href="impamyabumenyi.html" class="button pull-right internal-link bold-text light hvr-grow" style="font-size: 14px;" >Gusaba Impamyabumenyi</a>
+                                            </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                
+                       
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+              
+        
+            </div>
+        </div>
+    </section> <!-- *** end welcome *** -->
+  <!-- =========================
+       About Us
+    ============================== -->
+    <section  >
+        <div>
+            <div class="container padding-top-large">
+
+                <div class="row margin-bottom-medium">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6"> 
+                <h2>
+                    <strong class="bold-text text-primary">Akamaro k'iyi gahunda</strong>
+                </h2>
+                <div class="line main-bg"></div>
+                        <div class="jumbo-text light-text margin-top-medium wow slideInLeft" data-wow-duration="2s">
+                            <p class="margin-bottom-medium wow slideInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                         <div>
+                                    <canvas id="myChart"></canvas>
+                         </div>
+                         <p><strong>Abantu bahuguwe mumyaka yashije</strong></p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                    <hr style="height: 3px; color: #aaa;"></div>
+                        <div class="col-md-1"></div>
+                    </div>
+            </div>
+        </div>
+    </section> <!-- *** end About Us *** -->
+
+    <section >
+            <div>
+                <div class="container padding-top-large">
+                 
+                   <h2 style="text-align: center">
+                        <strong class="bold-text text-primary">Aho SAP ziherereye</strong>
+                        <center><div class="line main-bg"></div></center>
+                   </h2>
+                    <div class="row margin-bottom-medium">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-4"> 
+                   
+                    
+                            <div class="jumbo-text light-text margin-top-medium wow slideInLeft" data-wow-duration="2s">
+                                <p class="margin-bottom-medium wow slideInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/about-side-side.png" alt="About Us Big Image" class="center-block img-responsive">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                    <hr></div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section >
+                <div>
+                    <div class="container margin-top-medium">
+                     
+                       <h2 style="text-align: center;" class=" margin-bottom-small">
+                            <strong class="bold-text text-primary">Agasanduku k'ibitekerezo</strong>
+                       </h2>
+                        <div class="row margin-bottom-medium">
+                            <div class="col-md-2"></div>
+                            <div class="container col-md-8"> 
+                       
+                        
+                               <form action="">
+                                   <input type="text" class="form-control" placeholder="Email (ntago ari ngombwa)"><br>
+                                   <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Andika igitekerezo cyawe hano"></textarea><br>
+                                <center><button class="btn btn-primary">Ohereza</button></center>   
+                               </form>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+       <!-- =========================
+       Footer
+    ============================== -->
+    <footer class="  bg-primary">
+            <div class=" padding-medium ">
+                        <small class="margin-bottom-medium" style="margin-left: 30px;">Connect with us :+250786791388</small>
+    
+                    
+                        <small>
+                           info@minict.gov.rw
+                        </small>
+            </div>
+        </footer> <!-- *** end Footer *** -->
+    
+
+    </div>
+    <!-- <div class="col-md-1"></div> -->
+</div>
+<style>
+
+   
+    </style>
+    
+  
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal1">
+    
+      <!-- Modal content -->
+      <div class="modal1-content">
+          <div style="font-weight: 700;font-size: 20px;"><span class="text-primary">Kwinjira</span>  <span class="closed" style="
+            margin-top: -10px;">&times;</span></div>
+       
+        <div><br>
+            <form action="dashboard.html" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Emai,telefoni cyangwa kode" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Ijambo ry'ibanga" required="required">					
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="checkbox">
+                                    <label><input type="checkbox" value=""> Kunyibuka</label>
+                                  </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                                <input type="submit" class="btn btn-primary pull-right" value="Kwinjira"> 
+                            </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="form-group">
+             <div>
+                 <a href="#">Wibagiwe ijambo ry'ibanga? </a>
+             </div>
+              
+            </div>
+            </form>
+        </div>
+      </div>
+    
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("closed")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+    
+  
+
+
+
+
+ 
+
+
+
+    <!-- =========================
+     JavaScripts
+    ============================== -->
+    <script src="landingpage/js/vendor/jquery-1.11.1.js"></script>
+    <script src="landingpage/js/vendor/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
+    <script src="landingpage/js/twitterFetcher_min.js"></script>
+    <script src="landingpage/js/vendor/bootstrap.js"></script>
+    <script src="landingpage/js/wow.min.js"></script>
+    <script src="landingpage/js/jquery.easing.min.js"></script>
+    <script src="landingpage/js/appear.js"></script>
+    <script src="landingpage/js/jquery.circliful.min.js"></script>
+    <script src="landingpage/js/owl.carousel.min.js"></script>
+    <script src="landingpage/js/nivo-lightbox.min.js"></script>
+    <script src="landingpage/js/isotope.pkgd.min.js"></script>
+    <script src="landingpage/js/imagesloaded.pkgd.min.js"></script>
+    c
+
+    <!-- =======================
+        charts
+    ===================-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="landingpage/js/chart.js"></script>
+</body>
+</html>
+
+
+
+
